@@ -167,7 +167,11 @@ body {
   background-color: white;
 }
 .inside .card {
+  width: 25vw;
   padding-bottom: 30px;
+}
+.inside-pic {
+  width: 28vw;
 }
 .seymour {
   background-color: white;
