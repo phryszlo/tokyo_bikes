@@ -1,0 +1,76 @@
+:root {
+  --deal-announce-background: #6d7866;
+  --product-background: #eeeeee;
+  --footer-background: #e0e0e0;
+  --deal-announce-height: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+}
+.deal-announce {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: var(--deal-announce-height);
+  margin: 0;
+  background-color: var(--deal-announce-background);
+
+  /* border: solid deeppink; */
+}
+
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+
+  border: solid deeppink;
+}
+
+.hero-image {
+  width: 100vw;
+}
+
+.entice {
+  position: absolute;
+  top: 690px;
+  height: 150px;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  opacity: .4;
+
+  /* border: 5px solid rgb(0, 255, 153); */
+}
+
+.products {
+  /* display: flex; */
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+  background-color: var(--product-background);
+  /* z-index: 100; */
+  /* border: 5px solid orange; */
+}
+
+.bike {
+  width: 25vw;
+  /* height: calc(25vw * 0.75); */
+  margin: 1em;
+}
