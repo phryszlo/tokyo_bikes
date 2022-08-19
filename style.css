@@ -166,6 +166,14 @@ body {
   margin: 0;
   background-color: white;
 }
+.inside .card {
+  padding-bottom: 30px;
+}
+.seymour {
+  background-color: white;
+  height: 2.5em;
+  margin-top: 10px;
+}
 
 .inside-header {
   text-align: center;
@@ -175,4 +183,27 @@ body {
   font-size: 12px;
   color: #0009;
 }
+.inside-span {
+  width: 80%;
+  text-align: center;
+}
 
+footer {
+  padding: 50px;
+  background-color: var(--footer-background);
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 70%;
+}
+.footer-div a {
+  text-align: left;
+  text-decoration: none;
+}
