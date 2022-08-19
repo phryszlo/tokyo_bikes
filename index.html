@@ -32,41 +32,106 @@
       <div class="entice">
         <div class="entice-inner">
           <h3 class="entice-header">Our little tokyobike</h3>
-          <p class="entice-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae in labore quidem voluptatum earum, similique, repudianda Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quisquam magnam </p>
-          <button class="shop-now">SHOP NOW</button>
+          <p class="entice-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae in labore
+            quidem voluptatum earum, similique, repudianda Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem quisquam magnam </p>
+          <button class="shop-now" onclick="shopClick()">SHOP NOW</button>
         </div>
       </div>
       <img class="hero-image" src="./assets/tokyobike-Oksana.jpg" />
     </div>
 
-    <h3 class="products-header">MEET THE TOKYOBIKE LINE UP</h3>
+    <h3 class="h3 products-header">MEET THE TOKYOBIKE LINE UP</h3>
 
     <div class="products">
       <div class="card">
         <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
       <div class="card">
-        <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <img class="bike" src="./assets/products/CS26_mustard.jpg" alt="CS26_mustard.jpg" alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
       <div class="card">
-        <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <img class="bike" src="./assets/products/Little_cedar-green.jpg" alt="Little_cedar-green.jpg"
+          alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
       <div class="card">
-        <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <img class="bike" src="./assets/products/MiniVelo_rose.jpg" alt="MiniVelo_rose.jpg" alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
       <div class="card">
-        <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <img class="bike" src="./assets/products/Sport_black.jpg" alt="Sport_black.jpg" alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
       <div class="card">
-        <img class="bike" src="./assets/products/Bisou_blue-gray.jpg" alt="bisou_blue-gray.jpg" />
+        <img class="bike" src="./assets/products/SS_deep-forest.jpg" alt="SS_deep-forest.jpg"
+          alt="bisou_blue-gray.jpg" />
+        <h4 class="bike-name">SPORT</h4>
+        <span>$850.00</span>
+        <span class="color-span">
+          <p></p>
+          <p></p>
+          <p></p>
+        </span>
       </div>
     </div> <!-- products div close-->
+
+    <h3 class="h3 inside-header">INSIDE TOKYOBIKE</h3>
     <div class="inside">
-      INSIDE
+      <div class="card">
+        <img class="bike" src="./assets/Features_530x.jpg" alt="SS_deep-forest.jpg" alt="bisou_blue-gray.jpg" />
+      </div>
+      <div class="card">
+        <img class="bike" src="./assets/Collabs_530x.jpg" alt="SS_deep-forest.jpg" alt="bisou_blue-gray.jpg" />
+      </div>
+      <div class="card">
+        <img class="bike" src="./assets/Tokyo-by-tokyobike_530x.jpg" alt="SS_deep-forest.jpg"
+          alt="bisou_blue-gray.jpg" />
+      </div>
     </div>
     <footer>
     </footer>
   </div>
+
+  <script>
+    const shopClick = () => {
+      let h3 = document.createElement("h3");
+      h3.innerHTML = "click";
+      document.querySelector(".shop-now").append(h3);
+    }
+  </script>
 </body>
 
 </html>
