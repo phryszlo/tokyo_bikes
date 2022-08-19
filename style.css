@@ -1,13 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 :root {
   --deal-announce-background: #6d7866;
   --product-background: #eeeeee;
   --footer-background: #e0e0e0;
-  --deal-announce-height: 2em;
+  --deal-announce-height: 3em;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Questrial', Helvetica;
 }
 
 .content-wrapper {
@@ -26,6 +30,7 @@ body {
   color: white;
   justify-content: center;
   align-items: center;
+  font-size: smaller;
   width: 100vw;
   height: var(--deal-announce-height);
   margin: 0;
@@ -39,8 +44,16 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 4em;
+  padding-left: 40px;;
+}
 
-  border: solid deeppink;
+.nav-links {
+  margin-right: 40px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: smaller;
+  margin: 0 1.8em;
 }
 
 .hero-image {
@@ -49,24 +62,60 @@ body {
 
 .entice {
   position: absolute;
-  top: 690px;
-  height: 150px;
-  width: 100%;
+  display: flex;
+  top: calc(100vw * .82);
+  /* height: calc(100vw * .165); */
+  width: 100vw;
+  height: 25vh;
   z-index: 99;
-  background-color: white;
-  opacity: .4;
+  background-color: #ffffff99;
 
   /* border: 5px solid rgb(0, 255, 153); */
 }
 
+.entice-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em 5em;
+  height: 70%;
+  letter-spacing: .08pc;
+  color: #111111;
+}
+.entice-text {
+  color: #000000;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.shop-now {
+  opacity: 1;
+  background-color: #ffffffff;
+  z-index: 100;
+  height: 3.2em;
+  width: 9em;
+  border: none;
+}
+
 .products {
-  /* display: flex; */
-  /* flex-direction: row;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; */
+  justify-content: space-around;
   background-color: var(--product-background);
+  margin: 0;
   /* z-index: 100; */
   /* border: 5px solid orange; */
+}
+
+.products-header {
+  text-align: center;
+  margin: 0;
+  padding: 3em 0 2em 0;
+  height: 100%;
+  font-size: 12px;
+  color: #0009;
+  background-color: var(--product-background);
 }
 
 .bike {
